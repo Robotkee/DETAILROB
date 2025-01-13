@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <link rel="stylesheet"  href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <title>Firma Detailingowa</title>
+    </head>
+    <body>
+        <div class="preloader"></div>
+        <div class="obraz">
+            </div>
+                <nav class="menu">
+                </div>
+                    <a href="Strona.html">Główna</a>
+
+                            <div class="dropdown">
+                                <a href="#">Oferta</a>
+                                <ul>
+                                    <li><a href="Detail.html">Mycie Detailingowe</a></li>
+                                    <li><a href="Lakier.html">Regeneracja Lakieru</a></li>
+                                    <li><a href="Ceramika.html">Powłoka Ceramiczna</a></li>
+                                    <li><a href="Wnetrze.html">Detailing Wnętrza</a></li>
+                                    <li><a href="Reflektory.html">Regeneracja Reflektorów</a></li>
+                                    <li><a href="Folia.html">Naklejanie Folii</a></li>
+                                    <li><a href="Szyby.html">Przyciemnianie Szyb</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown2">
+                                <a href="#">O nas</a>
+                                    <ul>
+                                        <li> <a href="Kim.html">Kim jesteśmy</a> </li>
+                                        <li> <a href="Wyr.html">Co nas wyróżnia</a></li>
+                                        <li> <a href="Zauf.html">Dlaczego warto zaufać</a></li>
+                                    </ul>
+                            </div>
+                        <a href="#">Kontakt</a>
+                    </div>
+                </nav>
+
+                <div class="Goral">
+                            <H1><b>
+                                Detailing Studio
+                                Opole
+                                </b>
+                            </H1>
+                                <p>Specjalizujemy się w Detailingu wszelkiego rodzaju pojazdów,
+                                </br> tych nowych jak i tych zabytkowych
+                                </p>
+                        <form>
+                            <button type="submit"><a href="Rezerwuj.html" style="text-decoration: none" class="Rezerwuj">Rezerwuj Termin </a></button>
+                        </form>
+                </div>
+
+
+                <div class="Srodekl">
+                    <div class="Prof">
+                        <p> </br> Profesjonalne Studio Detailingu</p>
+                    </div>
+                            </br>
+                        <H1 class="DETAIL"><b>DETAILROB</b> - Co </br>nas odróżnia od </br>innych?</H1>
+                </div>
+
+
+                <div class="Srodekp">
+                    <div class="Napissp">
+                        <p>Niezwykła jakość, personalizowana opieka, innowacyjne podejście.</br> Twój samochód zasługuje na perfekcję. Profesjonalizm od pierwszego kontaktu </br> do odbioru. 
+                         Dbałość o szczegóły, nowoczesne rozwiązania </br>- nasza pasja to doskonałość w detalach.</p>
+                    </div>
+                        <form>
+                            <button type="submit"><a href="Kim.html" style="text-decoration: none" class="Wiecej">Więcej</a></button>
+                        </form>
+                </div>
+
+                
+                    <div class="Real">
+                        <div class="Realnn">
+                            <p>Nasze Usługi:</p>
+                        </div>
+                    </div>
+                
+
+                    <div class="Realdl">
+                            <a href="Ceramika.html"><img src="1.jpg" class="Ceramikaimg"> </a>
+                                <p class="Ceramikan">Powłoka Ceramiczna</p>
+                    </div>
+
+
+                    <div class="Realds">
+                            <a href="KorektaLakieru.html"><img src="2.jpg" Class="Lakierimg"></a>
+                                <p class="Regen">Korekta Lakieru</p>
+                    </div>
+
+
+
+
+                    <div class="Realdp">
+                            <a href="Folia.html"><img src="3.jpg" Class="Foliaimg"></a>
+                                <p class="Folian">Folia Bezbarwna (PPF)</p>
+                    </div>
+                
+
+                    <div class="Realddl">
+                            <a href="MycieDetailingowe.html"><img src="4.webp" Class="MycieDetailingoweimg"></a>
+                                <p class="Mycien">Czyszczenie Karoserii</p>
+                    </div>
+
+
+                    <div class="Realdds">
+                            <a href="DetailingWnetrza.html"><img src="5.webp" Class="Detailimg"></a>
+                                <p class="Wnetrzen">Czyszczenie Wnętrza</p>
+
+                    </div>
+
+
+                    <div class="Realddp">
+                            <a href="FoliaPrzyciemniająca.html"><img src="6.jpg" Class="Szybyimg"></a>
+                                <p class="Szybyn">Przyciemnianie Szyb</p>
+                    </div>
+                
+
+                    <div class="folia">
+                            <div class="DolNapis">
+                                <h1>
+                                    Zachowaj świeżość i </br>
+                                    czystość dzięki </br> 
+                                    najwyższej jakości usług </br> 
+                                    detailingowych
+                                </h1>
+                                    <p>
+                                    Oferujemy czyszczenie, renowację, konserwację i</br> 
+                                    ochronę poszczególnych elementów pojazdu, </br>
+                                    a także usługi lakierowania samochodów i nie tylko.
+                                    </p>
+                            </div>
+                    </div>
+
+
+                    <div class="Linial">
+                        <div class="Kontakt"><u>Kontakt</u></div>
+                    </div>
+                    
+                    <div class="Liniall">
+                        <p>Ul. Łowicka 1 </br>
+                            45,920 Opole</br></br>
+                            Tel: (077) 123 123 123 </br>
+                            Fax: (077) 123 123 123
+                              </p>
+                    </div>
+
+
+                    <div class="Liniap">
+                        <div class="Lokalizacja">Gdzie nas znaleźć?</div>
+                    </div>
+
+                    <div class="Liniapp">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.8346739790104!2d17.958374779481005!3d50.66733006955916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4710530b6a90258f%3A0x87d1830e053f33fd!2sAqua%20Detailing%20Opole%2C%20Myjnia%2C%20Polerowanie%20lakieru%2C%20PPF%2C%20Pow%C5%82oki%20ceramiczne!5e0!3m2!1spl!2spl!4v1701203508436!5m2!1spl!2spl" width="100%;" height="100%;" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <script>
+                        // Dodajemy nasz skrypt JavaScript
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Pobieramy odnośnik "Kontakt"
+                            var kontaktLink = document.querySelector('a[href="#Kontakt"]');
+                
+                            // Dodajemy nasłuchiwanie na kliknięcie odnośnika
+                            kontaktLink.addEventListener("click", function(event) {
+                                event.preventDefault(); // Zapobiegamy domyślnej akcji odnośnika
+                
+                                // Pobieramy element o identyfikatorze "Kontakt"
+                                var kontaktElement = document.getElementById("Kontakt");
+                
+                                // Scrollujemy stronę do elementu "Kontakt"
+                                kontaktElement.scrollIntoView({
+                                    behavior: "smooth" // Opcjonalne: "smooth" dla płynnego przewijania
+                                });
+                            });
+                        });
+                    </script>
+    </body>
+</html>
+

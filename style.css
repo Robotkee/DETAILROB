@@ -1,0 +1,651 @@
+
+body {
+    overflow-x: hidden;
+    padding: auto;
+    margin: 0;
+    width: 1920px;
+    height: 920px;
+    background-color: White;
+    font-family: 'Century Gothic';
+    font-size: 15;
+    font-weight: 500;
+    color: white;
+    display: block;   
+}
+
+.menu {
+    background-image: url(Logo.PNG);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 80%;
+    height: 10%;
+    position: fixed;
+    top: 20;
+    left: 120;
+    padding: 2  3rem;
+    background-color: white;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 0.85;
+    float: center;
+    clear: both;
+    font-size: 23;
+    z-index: 100;
+}
+
+.menu a {
+    margin: 0 1rem;
+    text-decoration: none;
+    padding: 1rem .5rem;
+    color: grey;
+    margin-right: 100px;
+}
+
+.dropdown,
+.dropdown2 {
+    position: relative;
+}
+
+.dropdown ul,
+.dropdown2 ul {
+    width: 87%;
+    text-align: center;
+    position: absolute;
+    background-color: #373C58;
+    padding: 10;
+    list-style-type: none;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.25);
+    margin-top: 10px;
+    border-radius: 7px;
+    display: none;
+}
+
+.dropdown ul li,
+.dropdown2 ul li {
+    padding: .5rem;
+}
+
+.dropdown ul li a,
+.dropdown2 ul li a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown ul li:hover,
+.dropdown2 ul li:hover {
+    background-color: #272B3F;
+    border-radius: 7px;
+}
+
+.dropdown a:focus + ul,
+.dropdown a:hover + ul,
+.dropdown ul:hover,
+.dropdown2 a:focus + ul,
+.dropdown2 a:hover + ul,
+.dropdown2 ul:hover {
+    display: block;
+}
+
+.Dane {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 300;
+    letter-spacing: 50;
+}
+
+
+.Termin {
+    position: absolute;
+    display: block;
+    top: 15;
+    left: 119;
+    display: block;
+
+}
+
+
+.RezTerm {
+    height: 3%;
+    width: 20%;
+    position: absolute;
+    top: 390;
+    left: 260;
+    display: block;
+    border-radius: 10%;
+    text-align: right;
+
+}
+
+.Wybierzzlisty {
+    background-color: lightgrey;
+    position: absolute;
+    width: 31.9%;
+    top: 365;
+    left: 379;
+    text-align: left;
+    display: block;
+    border: none;
+}
+
+.listaus {
+    position: absolute;
+    top: 349;
+    left: 113;
+}
+
+.Goral1 {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 110;
+    left: 150;
+    font-size: 30;
+    letter-spacing: -2;
+    line-height: 1.5;
+    display: block;
+    font-family: 'Century Gothic';
+    display: block;
+    text-align: right;
+}
+.Goral {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 150;
+    left: 150;
+    font-size: 30;
+    letter-spacing: -2;
+    line-height: 0.91;
+    display: block;
+}
+
+
+
+.obraz {
+    background-image: url(korekta.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75%;
+    clear: both;
+    opacity: 0.80;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.5);
+    display: block;
+}
+
+.Srodekl {
+    width: 40%;
+    height: 30%;
+    background-image: linear-gradient(to bottom, #272727, #2c2c2c, #323232, #373737, #3d3d3d);
+    float: left;
+    clear: both;
+    display: block;
+}
+
+.Prof {
+    position: absolute;
+    top: 710;
+    left: 150;
+    color: goldenrod;
+    font-size: 15;
+    display: block;
+}
+
+.DETAIL {
+    position: absolute;
+    top: 730;
+    left: 150;
+    text-align: center;
+    font-size: 40;
+    display: block;
+    
+}
+.Srodekp {
+    width: 60%;
+    height: 30%;
+    background-image: linear-gradient(to bottom, #272727, #2c2c2c, #323232, #373737, #3d3d3d);
+    float: right;
+    text-align: left;
+    display: block;
+}
+
+.Napissp {
+    font-family: 'Century Gothic';
+    margin-left: 33;
+    width: 70%;
+    height: 30%;
+    font-size: 23;
+    display: block;
+}
+
+.Rezerwuj {
+    width: 110%;
+    height: 40;
+    font-family: 'Century Gothic';
+    font-size: 22;
+    background-color: #FFA500;
+    color: black;
+    padding-top: 15;
+    padding: 10;
+    margin: -8;
+    opacity: 1;
+    transition: 0.3s;
+    display:inline-block;
+}
+
+
+.Rezerwuj:hover {
+    background-color: grey;
+    opacity: 1;
+    cursor: pointer;
+    color: white;
+    display: block;
+}
+
+
+.Wiecej {
+    text-decoration: none;
+    width: 5%;
+    height: 4%;
+    font-family: 'Century Gothic';
+    font-size: 22;
+    background-color: #FFA500;
+    transition: 0.3s;
+    position: absolute;
+    top: 900;
+    left: 800;
+    color: black;
+    text-decoration: none;
+    border: none;
+    padding-top: 10;
+    opacity: 0.80;
+    display: block;
+
+    }
+
+.Wiecej:hover {
+    text-decoration: none;
+    background-color: grey;
+    opacity: 0.80;
+    cursor: pointer;
+    color: white;
+    display: block;
+    }
+
+
+
+.Real {
+    font-family: 'Century Gothic';
+    width: 100%;
+    height: 8%;
+    background-color: #eb9a03;
+    clear: both;
+    text-align: center;
+    position: absolute;
+    top: 960;
+    padding-top: 5;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+    opacity: 0.8;
+    color: black;
+    font-size: 30;
+    display: block;
+}
+
+.Realnn {
+    position: absolute;
+    top: -10;
+    left: 800;
+    opacity: 0.7;
+    display: block;
+}
+
+.Realdl {
+    width: 33.33%;
+    height: 55%;
+    background-color: rgb(75, 75, 75);
+    float: left;
+    display: block;
+}
+
+.Realds {
+    width: 33.33%;
+    height:55%;
+    background-color: rgb(75, 75, 75);
+    float: left;
+    display: block;
+}
+
+.Realdp {
+    width: 33.33%;
+    height: 55%;
+    background-color: rgb(75, 75, 75);
+    float: left;
+    display: block;
+
+}
+
+.Realddl {
+    width: 33.33%;
+    height: 62%;
+    background-color: rgb(75, 75, 75);
+    float: left;
+    display: block;
+}
+
+.Realdds {
+    width: 33.33%;
+    height: 62%;
+    background-color: rgb(75, 75, 75);
+    float: left;
+    display: block;
+}
+
+.Realddp {
+    width: 33.33%;
+    height: 62%;
+    background-color: rgb(75, 75, 75);
+    float: right;
+    display: block;
+
+}
+
+
+.Ceramikaimg   {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.25);
+    transition: 0.3s;
+    opacity: 0.8;
+    display: block;
+    position: absolute;
+    top: 120%;
+    left: 6%;
+}
+
+.Ceramikaimg:hover {
+    width: 27%;
+    height: 40%;
+    display: block;
+
+}
+
+
+.Lakierimg      {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.25);
+    transition: 0.3s;
+    opacity: 0.8;
+    display: block;
+    position: absolute;
+    display: block;
+    top: 120%;
+    left: 39%;
+}
+
+.Lakierimg:hover {
+    width: 27%;
+    height: 40%;
+    display: block;
+
+}
+
+
+.Foliaimg       {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.25);
+    transition: 0.3s;
+    opacity: 0.8;
+    display: block;
+    position: absolute;
+    top: 120%;
+    left: 70%;
+}
+
+.Foliaimg:hover {
+    width: 27%;
+    height: 40%;
+    display: block;
+
+}
+
+.MycieDetailingoweimg      {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.25);
+    transition: 0.3s;
+    opacity: 0.8;
+    display: block;
+    position: absolute;
+    top: 170%;
+    left: 6%;
+}
+
+.MycieDetailingoweimg:hover {
+    width: 27%;
+    height: 40%;
+    display: block;
+
+}
+
+.Detailimg     {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.25);
+    transition: 0.3s;
+    opacity: 0.8;
+    display: block;
+    position: absolute;
+    top: 170%;
+    left: 39%;
+}
+
+.Detailimg:hover {
+    width: 27%;
+    height: 40%;
+    display: block;
+}
+
+.Szybyimg      {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.25);
+    transition: 0.3s;
+    opacity: 0.8;
+    display: block;
+    position: absolute;
+    top: 170%;
+    left: 70%;
+}
+
+.Szybyimg:hover {
+    width: 27%;
+    height: 40%;
+    display: block;
+
+}
+
+.Ceramikan {
+    width: 33.33%;
+    height: 5%;
+    position: absolute;
+    top: 1080;
+    left: 220;
+    font-style: bold;
+    font-size: 17;
+    color: #FFA500;
+    display: block;
+}
+
+.Regen {
+    width: 33.33%;
+    height: 5%;
+    position: absolute;
+    top: 1080;
+    left: 860;
+    font-style: bold;
+    font-size: 17;
+    color: #FFA500;
+    display: block;
+}
+
+.Folian {
+    width: 33.33%;
+    height: 5%;
+    position: absolute;
+    top: 1080;
+    left: 1410;
+    font-style: bold;
+    font-size: 17;
+    color: #FFA500;
+    display: block;
+}
+
+.Mycien {
+    width: 33.33%;
+    height: 5%;
+    position: absolute;
+    top: 1545;
+    left: 220;
+    font-style: bold;
+    font-size: 17;
+    color: #FFA500;
+    display: block;
+}
+
+.Wnetrzen {
+    width: 33.33%;
+    height: 5%;
+    position: absolute;
+    top: 1545;
+    left: 830;
+    font-style: bold;
+    font-size: 17;
+    color: #FFA500;
+    display: block;
+}
+
+.Szybyn {
+    width: 33.33%;
+    height: 5%;
+    position: absolute;
+    top: 1540;
+    left: 1410;
+    font-style: bold;
+    font-size: 17;
+    color: #FFA500;
+    display: block;
+}
+
+.Linial {
+    font-family: 'Century Gothic';
+    width: 40%;
+    height: 8%;
+    background-color: #eb9a03;
+    opacity: 0.8;
+    text-align: right;
+    color: black;
+    font-size: 30;
+    display: block;
+    clear: both;
+    float: left;
+    
+}
+
+.Liniall {
+    width: 40%;
+    height: 40%;
+    background-color: #eb9a03;
+    text-align: center;
+    opacity: 0.8;
+    color: black;
+    font-size: 30;
+    clear: both;
+}
+
+.Liniap {
+    font-family: 'Century Gothic';
+    width: 60%;
+    height: 8%;
+    background-color: #eb9a03;
+    text-align: center;
+    opacity: 0.8;
+    color: black;
+    font-size: 30;
+    display: block;
+    position: absolute;
+    left: 41.37%;
+    top: 2742;
+}
+
+
+.Liniapp {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    left: 41.37%;
+    top: 2791;
+    
+    
+
+}
+
+
+.folia {
+    background-image: url(folia.png);
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+    clear: both;
+    width: 100%;
+    height: 76%;
+    opacity: 0.8;
+    display: block;
+}
+
+.DolNapis {
+    text-align: right;
+    display: block;
+    font-size: 30;
+    color: black;
+    padding: 100;
+}
+
+
+
+.Kontakt {
+    width: 40%;
+    height: 8%;
+    padding: 20;
+    padding-left: 16%;
+    float: left;
+    display: block;
+}
+
+.Lokalizacja {
+    width: 60%;
+    height: 8%;
+    padding: 20;
+}
+
+
+
+
+
+
+
+
+
+
